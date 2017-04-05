@@ -1,0 +1,79 @@
+#global work:
+1. storyline
+2. tools install (nc, vi, python, )
+3. flag format
+
+DMZ server 1(linux):
+	1. web login bypass(web)[user1]:
+			output -> flag1 [and hint for 2.]
+			## job need to do : 
+				1.Web page
+
+	2. Metasploit service(rookie)[user2]:
+			plan 1 :
+			This service basically is a brute force service, we make username very long and hard to guess, only you solve challenge 1 can know the username. Then the password is quite easy to guess, they can easilly brute force it.
+
+			output -> bash [user2] + flag2(txt) [hint for 3. example:"hintfor3: execute su vimjail, passwd is abc"] 
+
+			plan 2:
+			This service basically is a brute force service, we make it easy to brute force.
+
+			output -> bash [user2] + flag2(txt) [hint for 3. example:"hintfor3: execute su vimjail"], we don't provide password, only they slove challenge 1, then they can get a the password
+			## job need to do :
+				1. find a vulnerability service
+				2. install into the this DMZ server, test it.
+				3. *(important)Set the user privilege.
+
+	3. vimjail(pwn)[user3]:
+			they need to slove a pwn challenge. And open a txt file, only user3 can read it.
+			output -> flag3(txt) + hint for 4 [run <binary_file> to start 4]
+			        <binary_file> -> 1.nc -l -p 9000 < stego.png
+			        				 2.println "you should execute nc IP Port > stego.png"
+			## job need to do : 
+				Count on Miracle
+
+	4. stego(Misc):
+		 	output -> flag4 + [username for gate server]
+		 	## job need to do:
+		 		1. just create a challenge (FINISH!!)
+
+DMZ server 2 (linux):
+	5. web SQLi(web)
+			output -> flag 5 [hint for 7 example:"unzip password for question 7 is xxxx"]
+			## job need to do:
+				1. setup a challenge
+				2. make sure no automatic tools can be used
+				3. (*MAYBE)OR FIND A BETTER WAY
+	6. Metasploit service(stupid):
+			haven't decide yet
+			output -> flag 6(txt) [hint for 7 "try to read challenge 7's file(.zip)"]
+			## job need to do:
+				1. find a vulnerability service
+				2. install into this box, test it
+				3. hide the flag...(maybe)
+	7. Crypto:
+			given a zip file, they must finish challenge 5 and 6, then unzip this file with password that got from challenge 5.
+			output -> flag7 [password for gate server]
+			## job need to do:
+				1. just create this challenge.
+
+Gate server 3 (linux):
+	8. RE:
+			they use username and password get from challenge 4 & 5, then login the server, find a RE file
+			output -> flag 8 [hint for 9: try to find host behind firewall]
+			## job need to do:
+				1. write this program, compile it.
+				2. make sure this program is easy enough, that they can use commond like "strings" to check the flag
+
+Inner host 1 (Windows):
+	9. Metasploit(fool):
+			output -> flag 9 [username/password for Inner host 2]
+			## job need to do:
+				same as 6.
+Inner host 2 (linux):
+	10. RE(difficult!):
+			output -> flag 10 [cong!]
+			## job need to do:
+				1. write program, complie it, test it. make sure it's difficult enough, that even someone like Jay or Puru can't figure it out.
+
+#dicuss the deadline on the meeting.
