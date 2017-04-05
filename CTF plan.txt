@@ -18,14 +18,14 @@ DMZ server 1(linux):
 			plan 2:
 			This service basically is a brute force service, we make it easy to brute force.
 
-			output -> bash [user2] + flag2(txt) [hint for 3. example:"hintfor3: execute su vimjail"], we don't provide password, only they slove challenge 1, then they can get a the password
+			output -> bash [user2] + flag2(txt) [hint for 3. example:"hintfor3: execute su vimjail"], we don't provide password, only they solve challenge 1, then they can get a the password
 			## job need to do :
 				1. find a vulnerability service
 				2. install into the this DMZ server, test it.
 				3. *(important)Set the user privilege.
 
 	3. vimjail(pwn)[user3]:
-			they need to slove a pwn challenge. And open a txt file, only user3 can read it.
+			they need to solve a pwn challenge. And open a txt file, only user3 can read it.
 			output -> flag3(txt) + hint for 4 [run <binary_file> to start 4]
 			        <binary_file> -> 1.nc -l -p 9000 < stego.png
 			        				 2.println "you should execute nc IP Port > stego.png"
@@ -45,7 +45,7 @@ DMZ server 2 (linux):
 				2. make sure no automatic tools can be used
 				3. (*MAYBE)OR FIND A BETTER WAY
 	6. Metasploit service(stupid):
-			haven't decide yet
+			haven't decided yet
 			output -> flag 6(txt) [hint for 7 "try to read challenge 7's file(.zip)"]
 			## job need to do:
 				1. find a vulnerability service
@@ -76,4 +76,4 @@ Inner host 2 (linux):
 			## job need to do:
 				1. write program, complie it, test it. make sure it's difficult enough, that even someone like Jay or Puru can't figure it out.
 
-#dicuss the deadline on the meeting.
+#discuss the deadline on the meeting.
