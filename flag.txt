@@ -1,1 +1,51 @@
+Just a overview of the flag framework:
+Start: 
+	now the only thing we know is two DMZ servers' IP address, go and dig something
 
+flag1: FLAG_3{Y0u_G3+_1t!} (show in the website)
+	   Hint: a txt file(i.e. notice.txt)
+	   when they design this server, the engineer leave the team, but the deadline doesn't change at all, so they hire a student who just learn database for 1 week to continue this project. 
+	   Don't tell any one, especially those guys belongs to Hilary!
+	   By the way, the username for database is (given a md5 or base64 encode username)  [username need to be decided, they must decode this username]  
+
+flag2:FLAG_3{DB_15_5UCks_!} (show in a txt file)
+	   Hint: a txt file? (need test!)
+	
+flag3:FLAG_3{VI1N_jA11_15_1v3ak!} (show in a txt file)
+	   Hint: a txt file(i.e. important.txt)
+	   Dear Secretary of State, this is your user privilege, we know you are important for our President, and you have your access token to POTUS's laptop.
+	   We invite a master of security, he helped you hide the token into a image, it's safe now.
+	   When you want to see the token, just find the image and open it. As the security expert's wish, the name of image is base, but we don't know why, but you know that!
+
+flag4:FLAG_3{Y0u_Ca1nt_Se3_TrUtHY!} (show in a txt file)
+       Hint: include in flag.txt
+       Dear Secretary of State: this is your access token, when you want to access to POTUS, you Must tell Vice President, due to the token that President given to you is not complete! Go find the Vice president!
+
+flag5:FLAG_3{QR_C0o13_1S_loaD!}	(show in the website)
+	  Hint: a Letter (ToVP.txt)
+	  Dear Vice President, we are your security consults, Nowadays people like use text message, email or EVEN TWITTER(who?) to transform information, but after a serious discussion, we think ftp is the best to transform data, We are pretty sure this service is security (also we only start to do security consoult for one day! :D)
+	  Btw, POTUS told us gave you a shor message, we don't know its function, but we think you need it! (a password) [give them the crypto challenge's unzip password]
+
+flag6:FLAG_3{TH03e5_L13Rs_fT10sUc13!} (show in a txt file)
+	  Hint: a txt file (location /var/www/ or /home/)
+	  Dear VP, we heared the Secretary of State hired someone encrypt his security message that can access to POTUS, we decide to do better! We encrypt your token! And we all know you must have learn some basic math!(you must have graduate from high school!). So, we will delete the key to decrypt, we believe you can fix it!
+
+flag7:FLAG_3{_CRyPT0_15_T0oO_1v3aK!} (they decrypt the zip file use password from 5)
+	  Hint: flag7 and hint all in one txt file, encrypted.
+	  Dear VP, you are awesome! Here is your token, [the token], if you want to see POTUS, call Secretary of State!
+
+flag8:FLAG_3{W31C01nE_T0_Wh1teH0u5e!} (they login as a unprivilege user)
+	  Hint: Both flag8 and hint located in /root/,after they finish privilege escalation, they can read it:
+	  Welcome to White House! You must come to see our POTUS! Please wait here, our POTUS is doing his Twitter-meeting! If Potus want to see you, you will get a email. DONT TRY TO SCAN OUR NETWORK, WE WILL FIND YOU!
+
+flag9:FLAG_3{UpDaT3_1s_G0od1!}
+	  hint: both hint and flag stored in a txt file located in C:\WINDOWS\ or somewhere
+	  Dear Mr President, we know you are a nostalgic man, so we keep this server un-update, but I mean, really, it's a bad idea...I know you wont listen, but its dangerous!!!
+	  ######
+	  This part I still need some time to figure out how to build connection
+	  between Win2k3 server and POTUS's laptop
+	  ######
+
+flag10:FLAG_3{MaKE_AmER1Ca_Gr3At_aGa1n!} (flag with password to root user in txt)
+	   hint:
+	   Nothing, when they su to root privilege, open the /root/, they will see a file, which contains something (contain what???????)
