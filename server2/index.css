@@ -1,0 +1,65 @@
+<style>
+table.lampa {
+	width: 300%;
+	brder:20px solid #d4d4d4;
+}
+table.lamp th {
+	padding: 30px;
+	/*max-width: 500px;
+	max-height: 500px;*/
+}
+table.lamp td {
+	font-size: 250%;
+	/*width : 120%;*/
+	padding-left: 5px;
+}
+table.lamp td {
+	width:1800px;
+}
+#nav {
+    /*line-height:30px;*/
+    background-color:#eeeeee;
+    /*height:300px;*/
+	height:300px;
+	line-height: 300px;
+	text-align: center;
+	font-size: 150%;
+    width:150px;
+    float:left;
+    
+	clear:both;
+}
+
+#section {
+	/*text-align: center;*/
+	padding-left:20px;
+    width:700px;
+    float:left;
+    
+	font-size: 20px;
+}
+#button {
+	width: 120px;
+	align-content: center;
+	padding-top: 150px;
+	padding-left: 50px;
+}
+#image {
+	float:center;
+}
+#content {
+	align-self: center;
+	padding-left: 30px;
+	padding-top: 30px;
+	font-size: 50px;
+	font-weight: bold;
+}
+#footer {
+	float:bottom;
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+</style>
