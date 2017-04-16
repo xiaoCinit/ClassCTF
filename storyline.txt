@@ -1,0 +1,33 @@
+﻿After the failure of election, Hillary Clinton did not give up. A spy told the Hillary team that there are some information stored in Trump’s computer which could be advantage for Hillary. So the Hillary team decided to hack into the Trump’s team’s data server to obtain this information. So that Hillary can return!
+You are the most genius hackers of the Hillary team. We now known that we need the username and the password to login Trumps server and these two things can’t be compromised by brute force according to our investigation. The only way we can get them is that we must compromise two servers belongs to Trump’s secretaries. These two servers both stored part of username and password. So our immediate goal is to get the keys of the two ministers in the computer and concatenate them to get username and password. Now the only thing we know is two DMZ servers' IP address so that you can solve them separately. Go and dig something. Good luck!
+* Branch A
+   * 1. Web
+      * Browse a website, you need to login successfully to continue.
+      * Congrats! You just finish the very beginning step and get a string! Let’s dig deeper!
+   * 2. Metasploit 
+      * This service basically is a brute force service, we found out that username very long and hard to guess. Since you already solve the problem 1, we might try the string you got from problem 1 as username. Then the password is quite easy to guess, they can easily be brute force.
+      * Bravo! You just finish half problem of this server. Hurry up, let’s go to next problem
+   * 3. Vimjail
+      * Hmm… looks like we are stucked in a jail. Let’s break it.
+      * That was close, glad we made it. Let’s go to the last problem.
+   * 4. Stego
+      * Look at this, is this a jigsaw puzzle? I believe you are a pro puzzle solver.
+      * Well played! Now we get the first part of key. Go find the another!
+* Branch B
+   * 5. Sql 
+      * This is just a simple web page. Looks like we need to login to get some secret. How can we bypass it? 
+      * It was quite easy right? There is no time for us to hold a banquet .Let’s move to next step.
+   * 6.  Metasploit.
+   * 7. Crypto
+      * Open the zip file, we already had the keys. Ceaser Subs? What does this mean?
+      * Well done! Now we can concatenate them. It’s time to give Trump a surprise!
+* Branch C
+   * RE
+      * Damn it. I didn’t expect Trump team set so many defences in their server. Now we have to break them step by step. This file looks very suspicious. Let’s check it.
+      * Good job! I believe they never expect we have a talented reverse engineer.
+   * Meta windows
+      * Can you believe it! They still use Windows server. Looks like we overestimate them. Let’s beat them out of s**t!
+      * Cool! There is only one puzzle for us to get the Trump’s scandal. Hurry up!
+   * RE(difficult)
+      * Another reverse engineering problem? I could have imagined that I was on a vacation in Hawaii.
+      * Wow this is it! Let’s give it to paparazzi and celebrate our success!
