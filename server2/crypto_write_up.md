@@ -1,4 +1,4 @@
-###CRYPTO PROBLEM WRITE UP###
+## CRYPTO PROBLEM WRITE UP
 
 We can simply find out that "_" and "o" represent 1 or 0
 So we can write a python code as follow
