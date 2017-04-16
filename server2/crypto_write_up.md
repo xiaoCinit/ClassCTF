@@ -50,7 +50,7 @@ Vjku"ku"hnci"HNCIa5}aET{RV2a37aV2qQa3x5cM#"Fgct"XR."{qw"ctg"cyguqog#"Jgtg"ku"{q
 Wklv#lv#iodj#IODJb6~bFU|SW3b48bW3rRb4y6dN$�#Ghdu#YS/#|rx#duh#dzhvrph$#Khuh#lv#|rxu#wrnhq/#^%of%%}3h<u;jxqv%`/#li#|rx#zdqw#wr#vhh#SRWXV/#fdoo#Vhfuhwdu|#ri#Vwdwh$
 Xlmw$mw$jpek$JPEKc7cGV}TX4c59cX4sSc5z7eO%�$Hiev$ZT0$}sy$evi$e{iwsqi%$Livi$mw$}syv$xsoir0$_&pg&&~4i=v<kyrw&a0$mj$}sy${erx$xs$wii$TSXYW0$gepp$Wigvixev}$sj$Wxexi%
 ~~~
-We can see the right one:
+We can see the correct one:
 ~~~
 This is flag FLAG_3{_CRyPT0_15_T0oO_1v3aK!} Dear VP, you are awesome! Here is your token, ["lc""z0e9r8guns"], if you want to see POTUS, call Secretary of State!
 ~~~
