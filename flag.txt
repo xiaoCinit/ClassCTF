@@ -10,14 +10,14 @@ flag1: FLAG_3{Y0u_G3+_1t!} (show in the website)
 
 flag2:FLAG_3{5SH_15_5UCks_!} (show in a txt file)
 	   Hint: a txt file
-	   Dear Secretary of State, we know nowadays LINUX system is un-secure, so we set a secret user for you, if you want to check check the secret code that POTUS gives us, you can switch to a special user 'vimjail'.
+	   Dear Secretary of State, we know nowadays LINUX system is un-secure, so we create a secret user for you, if you want to check the secret code that POTUS gives us, you can switch to a special user 'vimjail'.
 	   # TODO, add more details
 	
 flag3:FLAG_3{VI1N_jA11_15_1v3ak!} (show in a txt file)
 	   Hint: a txt file(i.e. important.txt)
 	   Dear Secretary of State, this is your user privilege, we know you are important for our President, and you have your access token to POTUS's laptop.
 	   We invite a master of security, he helped you hide the token into a image, it's safe now.
-	   When you want to see the token, just find the image and open it. As the security expert's wish, the name of image is base, but we don't know why, but you know that!
+	   When you want to see the token, just find the image and open it. As the security expert's requirement, the name of image is base, we don't know why, but you know that!
 
 flag4:FLAG_3{Y0u_Ca1nt_Se3_TrUtHY!} (show in a txt file)
        Hint: include in flag.txt
