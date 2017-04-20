@@ -1,7 +1,7 @@
 # Writeup for Reverse Engineering Challenge
 
 ## Step1
-Use command "file hack" to figure out the target's file type, it is a elf file. 
+Use command "file sudo" to figure out the target's file type, it is a elf file. 
 ## Step2
 Run this file with commands "chmod +x sudo" and “./sudo"
 ##Step3
